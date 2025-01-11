@@ -38,4 +38,4 @@ blogs, and social connections, as well as a contact form.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Polo360.git
+   git clone https://github.com/Iman060/Polo360.git
