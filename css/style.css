@@ -1,0 +1,238 @@
+header {
+    background: linear-gradient(#d5d5d5, #fff, #fff, #fff, #fff);
+    text-align: center;
+    padding: 37px 0 24px 0;
+}
+#logo img { width: 25%; }
+#menu { padding: 20px 0 0 0 }
+#menu li {
+    font: .7em Tahoma, sans-serif;
+    color: #b7b7b7;
+    padding: 0 10px 7px 10px;
+}
+#menu li a {
+    display: block;
+    font: bold .9rem Georgia, serif;
+    text-transform: uppercase;
+    color: #666;
+}
+
+main {
+    
+    background: #fff url('../img/mainbg.jpg') repeat-x;
+    padding: 20px 0 0 0;
+}
+
+#slider {
+    height: 340px;
+    border: 1px solid #c6c6c6;
+    border-radius: 7px;
+    background: url('../img/slider1.jpg') center/cover;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    
+}
+#lorem{
+    font-size: 1.25em;
+    text-align: center;
+    margin: 20px;
+}
+hr{
+    color: #e5e5e5;
+    margin: 7px;
+    margin-bottom: 20px;
+}
+#boxs{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 300px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #fff;
+    
+}
+
+.box h2 { color: #0066cc; margin: 5px 0; }
+.box p { font-size: 0.9rem; color: #666; margin: 10px 0; }
+.card img {
+     width: 100%; border-radius: 5px; border: 1px solid #ddd; margin: 10px 0;
+     border: 5px solid #ddd;
+     border-radius: 8px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+.card .btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #e8e8e8;
+    color: #83b3ca;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.card .btn:hover { 
+    background: #0056b3;
+    color: #fff; 
+}
+.social{
+    margin: auto;
+    width: 320px;
+    padding:10px 10px 10px 0; 
+}
+.social hr{
+    border: none;
+    border-top: 3px dotted #e8e8e8; 
+    margin: 10px 0;
+}
+.social p{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social img{
+    margin: 0px 5px 40px 0;
+    width: 50px;
+    height: 50px;
+}
+#hacibang {
+    margin-bottom: 50px;
+}
+.social h3{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #999;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.social .btn{
+    display: inline-block;
+    width: 55%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(90deg, #5c9ded, #3573cd);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+#contact h2{
+    font-weight: 500;
+
+}
+#name{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #999;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 0 0 20px 0;
+}
+#mail{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #999;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 0 0 20px 0;
+}
+textarea{
+    width: 300px;
+    height: 130px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #999;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 45px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.image{
+    background-color: #f0f0f0;
+    padding: 4px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #b7b7b7;
+}
+#blogimg{
+    margin: 0;
+    float: left;
+}
+#blog p{
+    padding-left: 5px;
+    display: inline-block;
+    width: 230px;
+    height: 3px;
+}
+
+#blog .btn{
+
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 183px;
+    background: #333;
+    border-top: 10px solid #4c4c4c;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 940px;
+        margin: auto;
+    }
+    header { text-align: initial; }
+    #menu { float: right; }
+    #menu li { 
+        display: inline-block; 
+        border-left: 1px dotted #d6d6d6;
+    }
+    #boxs{
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    #box2{
+    margin: 0 20px;    
+    }
+    .social{
+        margin: 0;
+    }
+}
